@@ -54,7 +54,7 @@ import {
  * If this environment variable is provided, the viewer is switched to
  * single-tree mode without the option to load other data.
  */
-const staticUrl = process.env.REACT_APP_STATIC_URL;
+const staticUrl = "https://genealogy.gerthoffert.info/gerthoffert.ged";
 
 /** Shows an error message in the middle of the screen. */
 function ErrorMessage(props: {message?: string}) {
